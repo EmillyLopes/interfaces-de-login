@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(107, 101, 101));
+    background-size: 100vw 100vw;
+    background-repeat:no-repeat;
+    color: white;
+    position:relative;
+    left: 30vw;
+    top: 6vw;
+    width: 40vw;
+    justify-content: center;
+}
+legend{
+    font-size: 3vw;
+}
+label{
+    size:30pt
+}
+button{
+    size: 2vw;
+}
+a{
+    color: bisque;
+    border: solid 2px white;
+}
