@@ -1,0 +1,21 @@
+ 
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #c2e0fb;
+    background-image: linear-gradient(255deg, #c2e0fb 0%, #E0C3FC 84%, #ffffff 100%);
+}
+body{
+    display: block;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  } 
+
+.tabela{
+    width: 100%;
+    max-width: 900px;
+    padding: 15px;
+    margin: auto;
+   
+  }

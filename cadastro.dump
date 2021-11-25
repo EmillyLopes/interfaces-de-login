@@ -1,0 +1,11 @@
+CREATE TABLE cadastro(  
+    nome VARCHAR(10) NOT NULL,
+    idade VARCHAR(10) NOT NULL,
+    peso VARCHAR(10) NOT NULL,
+    altura VARCHAR(10)NOT NULL,
+    email VARCHAR(15) NOT NULL,
+    senha VARCHAR(10) NOT NULL,
+    PRIMARY KEY (email),
+    UNIQUE id (email),
+
+);
