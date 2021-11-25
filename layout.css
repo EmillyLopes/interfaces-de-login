@@ -17,5 +17,9 @@ body{
     max-width: 900px;
     padding: 15px;
     margin: auto;
-   
+  
+  }
+  .navegacao{
+    display: block;
+    align-items:center;
   }

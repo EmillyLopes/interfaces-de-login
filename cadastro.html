@@ -10,8 +10,19 @@
   <form action="listagem.php" method="post" onsubmit=""    class="row g-3"> 
     <div class="text-center">
     <h1 class="h3 mb-3 fw-normal">Realizar cadastro</h1>
+    <div class="navegacao">
+      <ul class="nav nav-tabs nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
+      <li class="nav-item">
+        <a class="nav-link" href="sair.php">Sair</a>
+      </li>
+      </ul>
     </div>
+    </div>
+    <h1 class = "fs-5">Dados Pessoais</h1>
     <hr>
+
     <div class="col-mb-3">
       <div class="form-floating">
          <input type="nome" class="form-control" id="floatingInput" name="nome">
@@ -36,6 +47,10 @@
           <label for="form-floating" class="form-label">Altura</label>
       </div>
     </div>
+    <br>
+    <h1 class = "fs-5">Dados cadastrais</h1>
+    <hr>
+
     <div class="col-md-7">
       <div class="form-floating">
         <input type="email" class="form-control" id="floatingInput"  name="email">
@@ -54,8 +69,8 @@
         <div class="col-md-3">
           <button class="btn btn-outline-dark"><a href="login.html">Voltar</a></button>
         </div>
-        <div class="col-md-7">
-          <button type="submit" class="btn btn-outline-success">Cadastrar</button>  
+        <div class="col-md-9  d-md-flex justify-content-md-end">
+          <button type="submit" class="btn btn-outline-success ">Cadastrar</button> 
       </div>
       </div>
     </form>
